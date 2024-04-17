@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./facilities.css">
+
+    <title>Danny's Heaven</title>
+
+</head>
+
+<body>
+    <h1>Danny's Heaven</h1>
+
+
+    <nav>
+        <div class="topnav">
+
+            <a class="active" href="./index.html" target="_blank">Home</a>
+            <a href="./facilities.html" target="_blank">Our Facilities</a>
+            <a href="./booking.html" target="_blank">Reserve Your Room</a>
+            
+        </div>
+    </nav>
+
+    <main>
+
+    <div class="booking-form">
+        <h2>Book Your Room</h2>
+        <form action="#" method="post" id="bookingForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <fieldset>
+            <legend>Room Type:</legend>
+            <div class="room-type">
+                <label><input type="checkbox" name="roomType" value="single"> Single Bedroom</label>
+                <input type="number" name="numRooms" class="num-rooms" min="0" max="10" value="0">
+                <input type="text" name="price" class="price" value="$100" readonly>
+            </div>
+            <div class="room-type">
+                <label><input type="checkbox" name="roomType" value="double"> Double Bedroom</label>
+                <input type="number" name="numRooms" class="num-rooms" min="0" max="10" value="0">
+                <input type="text" name="price" class="price" value="$150" readonly>
+            </div>
+            <div class="room-type">
+                <label><input type="checkbox" name="roomType" value="triple"> Triple Bedroom</label>
+                <input type="number" name="numRooms" class="num-rooms" min="0" max="10" value="0">
+                <input type="text" name="price" class="price" value="$200" readonly>
+            </div>
+            <div class="room-type">
+                <label><input type="checkbox" name="facilities" value="ensuite"> Ensuite</label>
+                <input type="number" name="numRooms" class="num-rooms" min="0" max="10" value="0">
+                <input type="text" name="price" class="price" value="$200" readonly>
+            </div>
+            <div class="room-type">
+                <label><input type="checkbox" name="facilities" value="gym"> World Class Gym</label>
+                <input type="number" name="numRooms" class="num-rooms" min="0" max="10" value="0">
+                <input type="text" name="price" class="price" value="$50" readonly>
+            </div>
+            <div class="room-type">
+                <label><input type="checkbox" name="facilities" value="pool"> Heated Pool</label>
+                <input type="number" name="numRooms" class="num-rooms" min="0" max="10" value="0">
+                <input type="text" name="price" class="price" value="$75" readonly>
+            </div>
+        </fieldset>
+        
+        <label for="totalPrice">Total Price:</label>
+        <input type="text" id="totalPrice" name="totalPrice" readonly>
+        
+        <button type="submit">Book Now</button>
+        </form>
+        <button id="checkoutBtn" style="display: none;"><a id="checkoutLink" href="./checkout.html" target="_blank">Checkout</a></button>
+    </div>
+<script src="booking.js"></script>
+
+
+ 
+
+
+
+
+        
+
+        <h3>About us....</h3>
+
+        <p class="history">
+
+            In the heart of a quaint countryside town, nestled between rolling hills and meandering streams, stood
+            Danny's Haven, a
+            modest motel with a story to tell. Situated just off the old highway, it beckoned weary travelers with
+            promises of
+            comfort, warmth, and a touch of nostalgia. Danny, the proprietor, was a man of simple pleasures and
+            boundless
+            hospitality, his weathered face bearing the marks of years spent tending to the needs of his guests, each
+            line telling a
+            story of laughter, tears, and occasional adventure. With a warm smile and a twinkle in his eye, he welcomed
+            visitors
+            from far and wide, treating each arrival as a cherished friend. The motel itself was a charming relic of
+            days gone by,
+            its faded sign swaying gently in the breeze, a beacon of hope for those seeking respite from the chaos of
+            the world.
+            Each room was a sanctuary, adorned with vintage furnishings and the scent of fresh linens, inviting
+            travelers to rest
+            their weary souls and dream of distant horizons. But Danny's Haven was more than just a place to lay one's
+            head; it was
+            a haven for the lost, the lonely, and the searching souls who found solace within its walls. From the
+            aspiring artist
+            seeking inspiration to the weary businessman in need of a moment's peace, each guest found comfort in the
+            quiet embrace
+            of Danny's hospitality. As the seasons changed and the years passed, Danny's Haven remained a steadfast
+            beacon of hope
+            in an ever-changing world. Despite the challenges that life threw their way, Danny and his loyal staff
+            continued to
+            welcome guests with open arms, their hearts overflowing with love and kindness. And so, the legend of
+            Danny's Haven
+            grew, whispered among travelers like a secret passed from friend to friend. For those who had experienced
+            its warmth, it
+            was more than just a motel; it was a sanctuary, a refuge from the storm, a place where the troubles of the
+            world faded
+            away, if only for a moment. And though time marched on and the world around them evolved, Danny's Haven
+            remained
+            unchanged, a timeless oasis in a sea of uncertainty. For as long as there were weary travelers in need of
+            rest and
+            rejuvenation, Danny's Haven would stand as a testament to the power of love, kindness, and the enduring
+            spirit of
+            hospitality. And so, the story of Danny's Haven lived on, a reminder of the magic that happens when
+            strangers become
+            friends, and a place where weary souls could always find a warm welcome and a home away from home.
+
+        </p>
+
+
+        <div class="address">
+
+
+            <h3> Danny's Haven, Countryside, Peaceful place in town </h3>
+            <p> we are located on 898 celdon road</p>
+
+            <p><b>Hours of Operation</b></p>
+            <p>Monday - Friday 06:00am - 10:00pm</p>
+            <p>Saturday - Sunday 07:00am - 11:00pm</p>
+            <p>Sun:Closed- 12:00 pm -5:00 pm</p>
+
+        </div>
+
+        <h2>Testimonials.....</h2>
+
+
+        <div class="container">
+            <img src="./images/img5.png" alt="Avatar" style="width:90px">
+            <p><span>Daniel Sk.</span> CEO at Healthly Foods.</p>
+            <p>Danny's heaven is super clean and tidy</p>
+        </div>
+        <div class="container">
+            <img src="./images/img7.png" alt="Avatar" style="width:90px">
+            <p><span>Naomi Bharath.</span> Owner of Mylife Mychoices.</p>
+            <p>Danny's heaven staff are kind and passionate</p>
+        </div>
+        <div class="container">
+            <img src="./images/img6.png" alt="Avatar" style="width:90px">
+            <p><span>Eddite Ozoyoki.</span> Manager at Nalcore.</p>
+            <p>Super location, super Staff, Super Hospitality .</p>
+        </div>
+    </main>
+</body>
+
+</html>

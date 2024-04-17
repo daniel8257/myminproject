@@ -1,0 +1,72 @@
+body {
+    width: 1000px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: auto;
+    /* Center the body within the viewport */
+}
+
+header {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.d1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+
+.d2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.d3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+
+.d4 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+}
+
+.d5 {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.d6 {
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+section {
+    border: 1px solid #090707be;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    width: 200px;
+    text-align: center;
+
+}
+
+
